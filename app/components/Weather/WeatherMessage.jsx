@@ -2,9 +2,12 @@ var React = require('react');
 
 //view - presentational component
 
-var WeatherMessage = ({temp, location}) => {
+var WeatherMessage = ({
+  temp,
+  location
+}) => {
   return (
-    <h3 className="text-center">Il fait {temp}°C à {location}.</h3>
+    <h3 className="text-center">It is {temp}°C in {location}.</h3>
   );
 };
 
